@@ -1,0 +1,410 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		149E96B0D792ACA4CB35F5CC /* libPods-FSNetWorkManagerDemo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 46637920199DADBAAAB412F2 /* libPods-FSNetWorkManagerDemo.a */; };
+		A3E9E0461E826ED1009594F3 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A3E9E0451E826ED1009594F3 /* main.m */; };
+		A3E9E0491E826ED1009594F3 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A3E9E0481E826ED1009594F3 /* AppDelegate.m */; };
+		A3E9E04C1E826ED1009594F3 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A3E9E04B1E826ED1009594F3 /* ViewController.m */; };
+		A3E9E04F1E826ED1009594F3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A3E9E04D1E826ED1009594F3 /* Main.storyboard */; };
+		A3E9E0511E826ED2009594F3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A3E9E0501E826ED2009594F3 /* Assets.xcassets */; };
+		A3E9E0541E826ED2009594F3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A3E9E0521E826ED2009594F3 /* LaunchScreen.storyboard */; };
+		A3E9E0611E827AC0009594F3 /* FSNetworkManager.m in Sources */ = {isa = PBXBuildFile; fileRef = A3E9E0601E827AC0009594F3 /* FSNetworkManager.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		26A2FB81B356E40FBAA48EC9 /* Pods-FSNetWorkManagerDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FSNetWorkManagerDemo.release.xcconfig"; path = "Pods/Target Support Files/Pods-FSNetWorkManagerDemo/Pods-FSNetWorkManagerDemo.release.xcconfig"; sourceTree = "<group>"; };
+		46637920199DADBAAAB412F2 /* libPods-FSNetWorkManagerDemo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-FSNetWorkManagerDemo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A3E9E0411E826ED1009594F3 /* FSNetWorkManagerDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FSNetWorkManagerDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A3E9E0451E826ED1009594F3 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		A3E9E0471E826ED1009594F3 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		A3E9E0481E826ED1009594F3 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		A3E9E04A1E826ED1009594F3 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		A3E9E04B1E826ED1009594F3 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		A3E9E04E1E826ED1009594F3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A3E9E0501E826ED2009594F3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A3E9E0531E826ED2009594F3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		A3E9E0551E826ED2009594F3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A3E9E05F1E827AC0009594F3 /* FSNetworkManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FSNetworkManager.h; sourceTree = "<group>"; };
+		A3E9E0601E827AC0009594F3 /* FSNetworkManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FSNetworkManager.m; sourceTree = "<group>"; };
+		A49B57A518078D84713D55B5 /* Pods-FSNetWorkManagerDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FSNetWorkManagerDemo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-FSNetWorkManagerDemo/Pods-FSNetWorkManagerDemo.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A3E9E03E1E826ED1009594F3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				149E96B0D792ACA4CB35F5CC /* libPods-FSNetWorkManagerDemo.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7996F1FE04FED885D80BF29B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				46637920199DADBAAAB412F2 /* libPods-FSNetWorkManagerDemo.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A3E9E0381E826ED1009594F3 = {
+			isa = PBXGroup;
+			children = (
+				A3E9E0431E826ED1009594F3 /* FSNetWorkManagerDemo */,
+				A3E9E0421E826ED1009594F3 /* Products */,
+				FA50596317B419C9876BF9F4 /* Pods */,
+				7996F1FE04FED885D80BF29B /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		A3E9E0421E826ED1009594F3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A3E9E0411E826ED1009594F3 /* FSNetWorkManagerDemo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A3E9E0431E826ED1009594F3 /* FSNetWorkManagerDemo */ = {
+			isa = PBXGroup;
+			children = (
+				A3E9E05B1E827849009594F3 /* FSNetworkManager */,
+				A3E9E0471E826ED1009594F3 /* AppDelegate.h */,
+				A3E9E0481E826ED1009594F3 /* AppDelegate.m */,
+				A3E9E04A1E826ED1009594F3 /* ViewController.h */,
+				A3E9E04B1E826ED1009594F3 /* ViewController.m */,
+				A3E9E04D1E826ED1009594F3 /* Main.storyboard */,
+				A3E9E0501E826ED2009594F3 /* Assets.xcassets */,
+				A3E9E0521E826ED2009594F3 /* LaunchScreen.storyboard */,
+				A3E9E0551E826ED2009594F3 /* Info.plist */,
+				A3E9E0441E826ED1009594F3 /* Supporting Files */,
+			);
+			path = FSNetWorkManagerDemo;
+			sourceTree = "<group>";
+		};
+		A3E9E0441E826ED1009594F3 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A3E9E0451E826ED1009594F3 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		A3E9E05B1E827849009594F3 /* FSNetworkManager */ = {
+			isa = PBXGroup;
+			children = (
+				A3E9E05F1E827AC0009594F3 /* FSNetworkManager.h */,
+				A3E9E0601E827AC0009594F3 /* FSNetworkManager.m */,
+			);
+			path = FSNetworkManager;
+			sourceTree = "<group>";
+		};
+		FA50596317B419C9876BF9F4 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				A49B57A518078D84713D55B5 /* Pods-FSNetWorkManagerDemo.debug.xcconfig */,
+				26A2FB81B356E40FBAA48EC9 /* Pods-FSNetWorkManagerDemo.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A3E9E0401E826ED1009594F3 /* FSNetWorkManagerDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A3E9E0581E826ED2009594F3 /* Build configuration list for PBXNativeTarget "FSNetWorkManagerDemo" */;
+			buildPhases = (
+				70C1EADD15A1B82A80E2944F /* [CP] Check Pods Manifest.lock */,
+				A3E9E03D1E826ED1009594F3 /* Sources */,
+				A3E9E03E1E826ED1009594F3 /* Frameworks */,
+				A3E9E03F1E826ED1009594F3 /* Resources */,
+				A95541FDD13983E9FB0F60E5 /* [CP] Embed Pods Frameworks */,
+				C93718683F61D7445CAA3ACA /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FSNetWorkManagerDemo;
+			productName = FSNetWorkManagerDemo;
+			productReference = A3E9E0411E826ED1009594F3 /* FSNetWorkManagerDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A3E9E0391E826ED1009594F3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = FS;
+				LastUpgradeCheck = 0810;
+				ORGANIZATIONNAME = fengshun;
+				TargetAttributes = {
+					A3E9E0401E826ED1009594F3 = {
+						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = PFKU76D5EU;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = A3E9E03C1E826ED1009594F3 /* Build configuration list for PBXProject "FSNetWorkManagerDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A3E9E0381E826ED1009594F3;
+			productRefGroup = A3E9E0421E826ED1009594F3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A3E9E0401E826ED1009594F3 /* FSNetWorkManagerDemo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A3E9E03F1E826ED1009594F3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A3E9E0541E826ED2009594F3 /* LaunchScreen.storyboard in Resources */,
+				A3E9E0511E826ED2009594F3 /* Assets.xcassets in Resources */,
+				A3E9E04F1E826ED1009594F3 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		70C1EADD15A1B82A80E2944F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		A95541FDD13983E9FB0F60E5 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-FSNetWorkManagerDemo/Pods-FSNetWorkManagerDemo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C93718683F61D7445CAA3ACA /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-FSNetWorkManagerDemo/Pods-FSNetWorkManagerDemo-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A3E9E03D1E826ED1009594F3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A3E9E04C1E826ED1009594F3 /* ViewController.m in Sources */,
+				A3E9E0491E826ED1009594F3 /* AppDelegate.m in Sources */,
+				A3E9E0461E826ED1009594F3 /* main.m in Sources */,
+				A3E9E0611E827AC0009594F3 /* FSNetworkManager.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		A3E9E04D1E826ED1009594F3 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A3E9E04E1E826ED1009594F3 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		A3E9E0521E826ED2009594F3 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A3E9E0531E826ED2009594F3 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A3E9E0561E826ED2009594F3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		A3E9E0571E826ED2009594F3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A3E9E0591E826ED2009594F3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A49B57A518078D84713D55B5 /* Pods-FSNetWorkManagerDemo.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = PFKU76D5EU;
+				INFOPLIST_FILE = FSNetWorkManagerDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.huim.FSNetWorkManagerDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		A3E9E05A1E826ED2009594F3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 26A2FB81B356E40FBAA48EC9 /* Pods-FSNetWorkManagerDemo.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = PFKU76D5EU;
+				INFOPLIST_FILE = FSNetWorkManagerDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.huim.FSNetWorkManagerDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A3E9E03C1E826ED1009594F3 /* Build configuration list for PBXProject "FSNetWorkManagerDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A3E9E0561E826ED2009594F3 /* Debug */,
+				A3E9E0571E826ED2009594F3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A3E9E0581E826ED2009594F3 /* Build configuration list for PBXNativeTarget "FSNetWorkManagerDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A3E9E0591E826ED2009594F3 /* Debug */,
+				A3E9E05A1E826ED2009594F3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A3E9E0391E826ED1009594F3 /* Project object */;
+}
