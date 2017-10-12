@@ -14,12 +14,13 @@
 		A3E9E04F1E826ED1009594F3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A3E9E04D1E826ED1009594F3 /* Main.storyboard */; };
 		A3E9E0511E826ED2009594F3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A3E9E0501E826ED2009594F3 /* Assets.xcassets */; };
 		A3E9E0541E826ED2009594F3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A3E9E0521E826ED2009594F3 /* LaunchScreen.storyboard */; };
-		A3E9E0611E827AC0009594F3 /* FSNetworkManager.m in Sources */ = {isa = PBXBuildFile; fileRef = A3E9E0601E827AC0009594F3 /* FSNetworkManager.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		26A2FB81B356E40FBAA48EC9 /* Pods-FSNetWorkManagerDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FSNetWorkManagerDemo.release.xcconfig"; path = "Pods/Target Support Files/Pods-FSNetWorkManagerDemo/Pods-FSNetWorkManagerDemo.release.xcconfig"; sourceTree = "<group>"; };
 		46637920199DADBAAAB412F2 /* libPods-FSNetWorkManagerDemo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-FSNetWorkManagerDemo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4B112F831F8F508400E45F2C /* FSNetworkManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FSNetworkManager.h; sourceTree = "<group>"; };
+		4B112F841F8F508400E45F2C /* FSNetworkManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FSNetworkManager.m; sourceTree = "<group>"; };
 		A3E9E0411E826ED1009594F3 /* FSNetWorkManagerDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FSNetWorkManagerDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A3E9E0451E826ED1009594F3 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		A3E9E0471E826ED1009594F3 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -30,8 +31,6 @@
 		A3E9E0501E826ED2009594F3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A3E9E0531E826ED2009594F3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A3E9E0551E826ED2009594F3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		A3E9E05F1E827AC0009594F3 /* FSNetworkManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FSNetworkManager.h; sourceTree = "<group>"; };
-		A3E9E0601E827AC0009594F3 /* FSNetworkManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FSNetworkManager.m; sourceTree = "<group>"; };
 		A49B57A518078D84713D55B5 /* Pods-FSNetWorkManagerDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FSNetWorkManagerDemo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-FSNetWorkManagerDemo/Pods-FSNetWorkManagerDemo.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -47,6 +46,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		4B112F821F8F508400E45F2C /* FSNetworkManager */ = {
+			isa = PBXGroup;
+			children = (
+				4B112F831F8F508400E45F2C /* FSNetworkManager.h */,
+				4B112F841F8F508400E45F2C /* FSNetworkManager.m */,
+			);
+			path = FSNetworkManager;
+			sourceTree = "<group>";
+		};
 		7996F1FE04FED885D80BF29B /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
@@ -76,7 +84,7 @@
 		A3E9E0431E826ED1009594F3 /* FSNetWorkManagerDemo */ = {
 			isa = PBXGroup;
 			children = (
-				A3E9E05B1E827849009594F3 /* FSNetworkManager */,
+				4B112F821F8F508400E45F2C /* FSNetworkManager */,
 				A3E9E0471E826ED1009594F3 /* AppDelegate.h */,
 				A3E9E0481E826ED1009594F3 /* AppDelegate.m */,
 				A3E9E04A1E826ED1009594F3 /* ViewController.h */,
@@ -96,15 +104,6 @@
 				A3E9E0451E826ED1009594F3 /* main.m */,
 			);
 			name = "Supporting Files";
-			sourceTree = "<group>";
-		};
-		A3E9E05B1E827849009594F3 /* FSNetworkManager */ = {
-			isa = PBXGroup;
-			children = (
-				A3E9E05F1E827AC0009594F3 /* FSNetworkManager.h */,
-				A3E9E0601E827AC0009594F3 /* FSNetworkManager.m */,
-			);
-			path = FSNetworkManager;
 			sourceTree = "<group>";
 		};
 		FA50596317B419C9876BF9F4 /* Pods */ = {
@@ -243,7 +242,6 @@
 				A3E9E04C1E826ED1009594F3 /* ViewController.m in Sources */,
 				A3E9E0491E826ED1009594F3 /* AppDelegate.m in Sources */,
 				A3E9E0461E826ED1009594F3 /* main.m in Sources */,
-				A3E9E0611E827AC0009594F3 /* FSNetworkManager.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
