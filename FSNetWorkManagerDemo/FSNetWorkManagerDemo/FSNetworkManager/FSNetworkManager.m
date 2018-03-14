@@ -231,7 +231,7 @@ static NSMutableArray *tasks;
 {
     if ([[UIDevice currentDevice] systemVersion].floatValue >= 9.0)
     {
-        return [str stringByAddingPercentEncodingWithAllowedCharacters:[NSCharacterSet URLPathAllowedCharacterSet]];
+        return [str stringByAddingPercentEncodingWithAllowedCharacters:[NSCharacterSet characterSetWithCharactersInString:@"`#%^{}\"[]|\\<> "].invertedSet];
     }
     else
     {
